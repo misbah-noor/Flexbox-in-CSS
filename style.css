@@ -1,0 +1,89 @@
+/*Flexbox layout*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar*/
+
+header{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    padding: 25px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+img{
+    width: 4vw;
+    padding: 15px;
+}
+
+/*background image*/
+
+main{
+    background:url(image/photo-1488342994276-7c3bc0742042.jpeg) no-repeat center/cover fixed;
+    height: 90vh;
+    margin-bottom: 10px;
+}
+
+/*boxes*/
+
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.left{
+    background-color: aquamarine;
+    height: 70vh;
+    width: 30vw;
+}
+.right{
+    background-color: steelblue;
+    height: 70vh;
+    width: 30vw;
+}
+
+/*image card*/
+
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+   
+}
+.card-image{
+   height: 350px;
+   background-size: cover;
+   border-radius: 25px;
+
+}
+.card1{
+    background-image: url(image/pexels-cindy-gustafson-675313.jpg);
+}
+.card2{
+    background-image: url(image/pexels-pixabay-459203.jpg);
+}
+.card3{
+    background-image: url(image/pexels-pixabay-531774.jpg);
+}
